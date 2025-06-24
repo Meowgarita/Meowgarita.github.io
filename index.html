@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="icon" href="favicon-16x16.png" type="image/x-icon">
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./avatar.jpg" alt="avatar" class="header__avatar" />
+      <h1 class="header__title">Жуняк Маргарита</h1>
+      <h3 class="header__subtitle">22 года, Москва-Краснодар</h3>
+    </header>
+    <main>
+      <section class="links">
+        <h2 class="links__header">Где меня найти</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Телеграм</p>
+            <a class="linsk__link" href="http://t.me/kittyhazz">@kittyhazz</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Эл. почта</p>
+            <p class="linsk__link", style="margin: 0px;">meowgarita@yandex.ru</p>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Гит</p>
+            <a class="linsk__link" href="http://github.com/Meowgarita/">github.com/Meowgarita/</a>
+          </li>
+        </ul>
+      </section>
+      <section class="links">
+        <h2 class="links__header">Обо мне</h2>
+        <ul class="links__container">
+            <p style="margin: 0px;">В 2024-м году окончила НВГУ по специальности "Психология". Занимаюсь йогой, люблю видеоигры и котов. Мечтаю о бультерьере и работать в IT.</p>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <button type="button" onclick="window.myDialog.showModal()" class="button-link" href=""> НЕ НАЖИМАТЬ </button>
+    </footer>
+    <dialog id="myDialog" style="padding: 0px;">
+      <h2 style="margin: 0px;"><img src="./photo_cat.jpg" alt="avatar", style="height: 500px;"></img></h2>
+      <form method="dialog"  style="left: 50%; text-align: center;">
+        <button  style="text-align: center;">Закрыть</button>
+      </form>
+    </dialog>
+    <script type="text/javascript" src="js.js"></script>
+  </body>
+</html>
